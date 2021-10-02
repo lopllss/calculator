@@ -19,11 +19,15 @@
 }
 h1 {
   text-align: center;
-  margin-bottom: 1.5%;
-  color: #fff;
+  margin-bottom: 15%;
+  color: rgb(0, 0, 0);
 }
 .container {
-  width: 300px;
+  /* width: 300px;*/
+  background: beige;
+  border-radius: 30px;
+  padding: 32px;
+  box-shadow: inset -5px -5px 8px 0px #6a1a12, inset 5px 5px 8px 0px rgb(20 26 20 / 84%);
 }
 .result {
   width: 59.1%;
@@ -91,7 +95,9 @@ a {
 }
 .bottom-buttons {
   display: flex;
-  margin-left: -2.3px;
+  /* margin-left: -2.3px; */
+  margin-top: 20px;
+  justify-content: space-between;
 }
 .fab {
   font-size: 1.1em;
